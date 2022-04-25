@@ -1,0 +1,252 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fixNavbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.carrusel__section{
+  margin-top: 60px;
+}
+ 
+.carrusel__topTransp{
+
+  color: white;
+  position:absolute;
+  margin: auto;
+  background: rgba(169, 169, 169, 0.5);
+  width:100%;
+  height: 760px;;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.carrusel__topTransp__content{
+
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+  
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: auto;
+}
+
+#disneyLogo{
+  width: auto;
+  height: 40px;
+  margin: 10px;
+}
+
+#buttonLogin{
+	background-color:#fc571c;
+	border-radius:22px;
+	cursor:pointer;
+	color:#ffffff;
+
+	font-size:18px;
+	padding:10px 31px;
+	text-decoration:none;
+  margin: 10px;
+}
+
+#buttonPurchase{
+	background-color:rgba(0, 0, 0, 0);
+	border-radius:22px;
+  border: 2px solid rgb(255, 255, 255);
+	cursor:pointer;
+	color:#ffffff;
+
+	font-size:18px;
+	padding:10px 31px;
+	text-decoration:none;
+  margin: 10px;
+}
+
+
+#buttonLogin:hover {
+	background-color:#bd6a2f;
+}
+#buttonLogin:active {
+	position:relative;
+	top:1px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.carrusel {
+  max-width: 100%;
+}
+
+.carrusel__img{
+  max-width: 100%;
+}
+
+.covidUpdate{
+  text-align: center;
+  margin: 50px 130px;
+}
+
+.newReleases{
+  background-color:#000000;
+}
+
+.newReleases__navbar{ 
+  color: rgb(255, 255, 255);
+  background-color:#000000;
+  margin: 40px;
+  padding-top: 21px;
+}
+
+.NewReleaseElem{
+  color: rgb(255, 255, 255);
+  margin: 40px;
+}
+
+.hero {
+  display: flex;
+  
+  }
+  
+.hero__img {
+  flex: 1; 
+  width: 80%;}
+.hero__text {
+  flex: 1; 
+  padding: 75px;
+} 
+
+
+
+
+.links {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+max-width: 100%;
+}
+
+.link1 { grid-area: 1 / 1 / 2 / 2; }
+.link2 { grid-area: 1 / 2 / 2 / 3; }
+.link3 { grid-area: 1 / 3 / 2 / 4; }
+.link4 { grid-area: 1 / 4 / 2 / 5; }
+
+.contactUsBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box
+}
+
+.contactUs {
+  display: grid;
+
+  align-content: center;
+  align-items: center;
+  width: 75%; 
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  }
+  
+  .contactUs__title { 
+    grid-area: 1 / 1 / 2 / 3; 
+    text-align: center;
+  }
+  .contactUs__name { grid-area: 2 / 1 / 3 / 2; }
+  .contactUs__surname { grid-area: 2 / 2 / 3 / 3; }
+  .contactUs__number { grid-area: 3 / 1 / 4 / 2; }
+  .contactUs__email { grid-area: 3 / 2 / 4 / 3; }
+  .contactUs__message { 
+    grid-column: 1 / 3;
+  }
+  .contactUs__submit { 
+    grid-area: 5 / 1 / 6 / 3;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  #buttonSubmit{
+    background-color:#000000;
+    border-radius:22px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:18px;
+    padding:10px 31px;
+    text-decoration:none; 
+    margin: 50px;
+  }
+  
+  
+  #buttonSubmit:hover {
+    background-color:#bd6a2f;
+  }
+  #buttonSubmit:active {
+    position:relative;
+    top:1px;
+  }
+
+.footer{
+  display: flex;
+  background-color:#000000;
+  color: rgb(255, 255, 255);
+}
+
+.footer__item{
+  flex: 1 1 0;
+  padding: 40px;
+}
